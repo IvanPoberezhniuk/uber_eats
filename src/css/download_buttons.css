@@ -1,0 +1,46 @@
+.googleplay,
+.appstore {
+    display: flex;
+    flex-direction: row;
+    width: 119px;
+    height: 40px;
+    padding: 0 0.5rem;
+    margin: 0 1.5rem;
+    border-radius: 6px;
+    background-color: black;
+    border: 1px solid var(--alt-faded-color);
+}
+
+
+
+.googleplay:hover,
+.appstore:hover {
+    color: var(--alt-main-color, aliceblue);
+    background-color: var(--faded-color);
+}
+
+.appstore__text1,
+.googleplay__text1 {
+    font-size: 0.6rem;
+
+}
+
+.appstore>span,
+.googleplay>span {
+    display: flex;
+    margin-left: 5px;
+    flex-direction: column;
+}
+
+.appstore__text2,
+.googleplay__text2 {
+    font-size: 1rem;
+    line-height: 8px;
+
+}
+
+.content-3_wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}

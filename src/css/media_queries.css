@@ -1,0 +1,264 @@
+@media screen and (max-width: 768px) {
+    /* index.html */
+
+    .header-content {
+        width: 100%;
+    }
+
+
+    .reastaurant-list_content {
+        grid-template-columns: auto auto;
+        justify-content: start;
+        padding-left: 1rem;
+    }
+
+    .reastaurant-list_content h1 {
+        grid-column-end: 3;
+    }
+
+    .search {
+        grid-column-end: 3;
+    }
+
+    .offers img {
+        width: 368px;
+    }
+
+    footer {
+        padding-left: 1rem;
+    }
+
+    /* restaurant.html */
+
+    .restaurant {
+        width: 100%;
+    }
+
+    .restaurant-card {
+        margin-left: 1rem;
+    }
+
+    .restaurant_wrapper {
+        width: 100%;
+    }
+
+    .assortment {
+        width: 100%;
+        padding-left: 1rem;
+        grid-template-columns: auto;
+    }
+
+    .assortment__card {
+        width: 100%;
+
+    }
+
+    .assortment_name {
+        grid-column-end: 1;
+    }
+
+    .food-menu {
+        margin-left: 0;
+    }
+
+    .food-menu ul {
+        padding-left: 1rem;
+    }
+}
+
+@media screen and (max-width: 321px) {
+
+    header {
+        padding: 0 0.5rem;
+        position: initial;
+        height: 72px;
+        overflow: visible;
+    }
+
+    .search {
+        margin-bottom: 5rem;
+    }
+
+    .header-content {
+        padding: 0rem 0.5rem;
+        flex-direction: row;
+        padding: 0rem 0.5rem;
+    }
+
+    .header-content>form {
+        order: 3;
+        margin-top: 6rem;
+    }
+
+    .offers img {
+        width: 311px;
+    }
+
+    input {
+        padding: 0.6rem;
+    }
+
+    .basket {
+        display: none;
+    }
+
+    .reastaurant-list_content {
+        padding-left: 0.5rem;
+        grid-gap: 0;
+        grid-template-columns: auto;
+        justify-content: start;
+    }
+
+    .reastaurant-list_content h1 {
+        grid-column-end: 1;
+    }
+
+    .search {
+        grid-column-end: 1;
+    }
+
+
+    .offers img {
+        width: 311px;
+    }
+
+    footer {
+        padding-left: 0.5rem;
+        justify-content: start;
+    }
+
+    .footer-content-wrapper {
+        width: 100%;
+    }
+
+    .content {
+        grid-gap: 0;
+        grid-template-columns: auto;
+    }
+
+    #deliver__location {
+
+        width: 180px;
+    }
+
+    .appstore {
+        margin: 0 0.5rem 0 0;
+    }
+
+    .googleplay {
+        margin: 0;
+    }
+
+    .registration-wrapper {
+        width: 180px;
+    }
+
+    header label {
+        position: absolute;
+        display: initial;
+        font-size: 0.75rem;
+        color: var(--alt-faded-color, gray);
+    }
+
+    label[for="deliver__time"] {
+        top: 9rem;
+        left: 0.5rem;
+    }
+
+    label[for="deliver__location"] {
+        top: 9rem;
+        left: 6.5rem;
+    }
+
+    .content:nth-child(3) {
+        justify-content: center;
+    }
+
+    /* restaurant */
+
+
+    .food-menu {
+        display: none;
+    }
+
+    .restaurant {
+        height: 255.89px;
+    }
+
+    .restaurant-card {
+        margin: 13rem 0 0 0.5rem;
+        width: 308px;
+        justify-items: center;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 0.1fr 0.7fr;
+    }
+
+    .restaurant-card__type {
+        grid-row-start: 2;
+        grid-row-end: 2;
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+
+    .restaurant-card__time {
+        grid-row-start: 3;
+        grid-row-end: 3;
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+
+    .restaurant-card h1 {
+        font-size: 1.9rem;
+    }
+
+    .assortment {
+        grid-gap: 1rem;
+        margin-top: 4rem;
+        padding-left: 0rem;
+        padding: 2.5rem 0.5rem 2.5rem 0.5rem;
+    }
+
+    .assortment__card {
+        height: 110px;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+    }
+
+    .assortment_name {
+        margin-left: 36%;
+        margin-bottom: 1rem;
+        position: relative;
+    }
+
+    .assortment_name:after {
+        top: 1rem;
+        right: 2.7rem;
+        width: 0px;
+        height: 3rem;
+        content: ' ';
+        color: white;
+        position: absolute;
+        overflow: hidden;
+        border-right: 1px solid var(--main-color, black);
+        transform: rotate(-90deg);
+    }
+
+    .assortment__card-info {
+        padding-left: 0;
+    }
+
+    .assortment__card--name {
+        font-size: 0.9rem;
+    }
+
+    img[alt="food_image"] {
+        height: 110px;
+        width: 110px;
+    }
+
+    .go-to-top {
+        width: 64px;
+        height: 64px;
+    }
+}
