@@ -1,19 +1,16 @@
-@media screen and (max-width: 768px) {
-    /* GOD BLESS THIS CODE */
-    /* index.html */
-
+@media screen and (max-width: 962px) {
     .header-content {
-        width: 100%;
+        padding: 16px;
+        justify-content: space-around;
     }
 
-
-    .reastaurant-list_content {
+    .restaurant-list_content {
         grid-template-columns: auto auto;
-        justify-content: start;
-        padding-left: 1rem;
+        justify-content: center;
+        /* padding-left: 16px; */
     }
 
-    .reastaurant-list_content h1 {
+    .restaurant-list_content h1 {
         grid-column-end: 3;
     }
 
@@ -21,12 +18,32 @@
         grid-column-end: 3;
     }
 
-    .offers img {
-        width: 368px;
+    .assortment {
+        padding-left: 16px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    /* GOD BLESS THIS CODE */
+    /* index.html */
+
+    .restaurant-list_content {
+        grid-template-columns: auto auto;
+        justify-content: center;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .restaurant-list_content h1 {
+        grid-column-end: 3;
+    }
+
+    .search {
+        grid-column-end: 3;
     }
 
     footer {
-        padding-left: 1rem;
+        padding-left: 16px;
     }
 
     /* restaurant.html */
@@ -36,7 +53,7 @@
     }
 
     .restaurant-card {
-        margin-left: 1rem;
+        margin-left: 16px;
     }
 
     .restaurant_wrapper {
@@ -44,14 +61,13 @@
     }
 
     .assortment {
-        width: 100%;
-        padding-left: 1rem;
-        grid-template-columns: auto;
+        padding-left: 16px;
+        grid-template-columns: 1fr;
     }
 
     .assortment__card {
-        width: 100%;
 
+        max-width: none;
     }
 
     .assortment_name {
@@ -63,54 +79,82 @@
     }
 
     .food-menu ul {
-        padding-left: 1rem;
+        padding-left: 16px;
     }
 }
 
-@media screen and (max-width: 321px) {
+@media screen and (max-width: 708px) {
 
     header {
-        padding: 0 0.5rem;
+        position: initial;
+        height: 72px;
+        overflow: visible;
+    }
+
+    /* .header-content {
+        justify-content: space-evenly;
+    } */
+
+    #deliver {
+        order: 3;
+        margin-top: 115px;
+    }
+
+    .search {
+        margin-bottom: 80px;
+    }
+
+    .restaurant-list_content {
+        grid-gap: 8px;
+        padding: 2%;
+    }
+}
+
+@media screen and (max-width: 620px) {
+
+    header {
         position: initial;
         height: 72px;
         overflow: visible;
     }
 
     .search {
-        margin-bottom: 5rem;
+        margin-bottom: 80px;
     }
 
     .header-content {
-        padding: 0rem 0.5rem;
         flex-direction: row;
-        padding: 0rem 0.5rem;
+        padding: 16px 8px;
+        /* justify-content: space-evenly; */
     }
 
-    .header-content>form {
+    #deliver {
         order: 3;
-        margin-top: 6rem;
+        margin-top: 105px;
     }
 
     .offers img {
-        width: 311px;
+        width: 100%;
+        max-width: 311px;
+        box-sizing: border-box;
     }
 
     input {
-        padding: 0.6rem;
+        padding: 9px;
     }
 
     .basket {
         display: none;
     }
 
-    .reastaurant-list_content {
-        padding-left: 0.5rem;
+    .restaurant-list_content {
+        padding: 1%;
         grid-gap: 0;
         grid-template-columns: auto;
-        justify-content: start;
+        justify-content: center;
     }
 
-    .reastaurant-list_content h1 {
+    .restaurant-list_content h1 {
         grid-column-end: 1;
     }
 
@@ -124,7 +168,7 @@
     }
 
     footer {
-        padding-left: 0.5rem;
+        padding-left: 8px;
         justify-content: start;
     }
 
@@ -143,7 +187,7 @@
     }
 
     .appstore {
-        margin: 0 0.5rem 0 0;
+        margin: 0 8px 0 0;
     }
 
     .googleplay {
@@ -162,13 +206,13 @@
     }
 
     label[for="deliver__time"] {
-        top: 9rem;
-        left: 0.5rem;
+        top: 144px;
+        left: 8px;
     }
 
     label[for="deliver__location"] {
-        top: 9rem;
-        left: 6.5rem;
+        top: 144px;
+        left: 104px;
     }
 
     .content:nth-child(3) {
@@ -184,10 +228,11 @@
 
     .restaurant {
         height: 255.89px;
+        justify-content: center;
     }
 
     .restaurant-card {
-        margin: 13rem 0 0 0.5rem;
+        margin: 208px 0 0 0;
         width: 308px;
         justify-items: center;
         grid-template-columns: 1fr 1fr 1fr;
@@ -213,10 +258,9 @@
     }
 
     .assortment {
-        grid-gap: 1rem;
-        margin-top: 4rem;
-        padding-left: 0rem;
-        padding: 2.5rem 0.5rem 2.5rem 0.5rem;
+        grid-gap: 16px;
+        margin-top: 64px;
+        padding: 40px 8px 40px 8px;
     }
 
     .assortment__card {
@@ -227,16 +271,16 @@
     }
 
     .assortment_name {
-        margin-left: 36%;
-        margin-bottom: 1rem;
+        justify-self: center;
+        margin-bottom: 16px;
         position: relative;
     }
 
     .assortment_name:after {
-        top: 1rem;
-        right: 2.7rem;
+        top: 16px;
+        right: 43px;
         width: 0px;
-        height: 3rem;
+        height: 48px;
         content: ' ';
         color: white;
         position: absolute;

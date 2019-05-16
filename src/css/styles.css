@@ -5,6 +5,7 @@
 @import 'footer.css';
 @import 'download_buttons.css';
 @import 'restaurant.css';
+
 @import 'media_queries.css';
 
 body {
@@ -16,7 +17,7 @@ body {
 }
 
 input {
-    padding: 0 0.9rem;
+    padding: 0 15px;
 }
 
 input:hover {
@@ -53,6 +54,6 @@ a:visited {
 h2 {
     font-size: 1rem;
     font-weight: normal;
-    margin: 0rem 0 0 0;
+    margin: 0;
 }
 
