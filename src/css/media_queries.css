@@ -293,6 +293,10 @@
         padding-left: 0;
     }
 
+    .assortment__card > img {
+        width: 35%;
+    }
+
     .assortment__card--name {
         font-size: 0.9rem;
     }
