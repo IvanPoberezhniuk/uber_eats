@@ -13,8 +13,8 @@ footer a:hover {
 
 
 .footer-content-wrapper {
+    width: 100%;
     max-width: 956px;
-
 }
 
 .footer-logo {
@@ -29,7 +29,7 @@ footer a:hover {
     border-bottom: solid 1px var(--alt-faded-color, gray);
 }
 
-.content-1 > a:first-child {
+.content-1>a:first-child {
     align-items: flex-start;
 }
 
